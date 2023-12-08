@@ -1,0 +1,224 @@
+/* .navbar {
+    display: flex;
+    justify-content:space-between;
+    align-items: left;
+    background-color: #181818;
+    height: 79px;
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: left;
+      padding: 10px;
+    }
+  
+    .text-wrapper,
+    .div,
+    .text-wrapper-2,
+    .text-wrapper-3 {
+        font-family: "Lato";
+        font-size: 25.49px;
+        font-weight: 300;
+        font-style: normal;
+        background-color: #181818;
+        color: #fff;
+        flex-grow: 1;
+        text-align: center;
+    }
+  
+    .text-wrapper-4 {
+      background-color: #181818;
+      color: #fff;
+      font-family: "EB Garamond-Regular", Helvetica;
+      font-size: 36px;
+      font-weight: 400;
+      left: 624px;
+      letter-spacing: 0;
+      line-height: normal;
+    }
+  } 
+
+ .navbar .text-wrapper {
+    border: none;
+    background-color: #181818;
+    color: #fff;
+    font-family: "Lato";
+    font-size: 25.49px;
+    font-weight: 300;
+    font-style: normal;
+    left: 45px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 27px;
+}
+
+.navbar .div {
+    border: none;
+    background-color: #181818;
+    color: #fff;
+    font-family: "Lato";
+    font-size: 25.49px;
+    font-weight: 300;
+    font-style: normal;
+    left: 1295px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 27px;
+}
+
+.navbar .text-wrapper-2 {
+    border: none;
+    background-color: #181818;
+    color: #fff;
+    font-family: "Lato";
+    font-size: 25.49px;
+    font-weight: 300;
+    font-style: normal;
+    left: 1164px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 27px;
+}
+
+.navbar .text-wrapper-3 {
+    border: none;
+    background-color: #181818;
+    color: #FFFFFF;
+    font-family: "Lato-light";
+    font-size: 25.49px;
+    font-weight: 300;
+    font-style: normal;
+    left: 182px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 27px;
+}
+
+.navbar .text-wrapper-4 {
+    background-color: #181818;
+    color: #fff;
+    font-family: "EB Garamond-Regular", Helvetica;
+    font-size: 36px;
+    font-weight: 400;
+    left: 624px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 19px;
+}  */
+
+/* .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #181818;
+    height: 79px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      padding: 10px;
+    }
+  
+    .text-wrapper,
+    .div,
+    .text-wrapper-2,
+    .text-wrapper-3 {
+      font-size: 1.5em;
+      flex-grow: 1;
+      text-align: center;
+    }
+  
+    .text-wrapper-4 {
+      font-size: 2em;
+    }
+  }
+  
+  .navbar .text-wrapper {
+    
+    border: none;
+    background-color: #181818;
+    color: #fff;
+    font-family: "Lato";
+    font-style: normal;
+  }
+  
+  .navbar .div {
+    border: none;
+    background-color: #181818;
+    color: #fff;
+    font-family: "Lato";
+    font-style: normal;
+  }
+  
+  .navbar .text-wrapper-2 {
+    border: none;
+    background-color: #181818;
+    color: #fff;
+    font-family: "Lato";
+    font-style: normal;
+  }
+  
+  .navbar .text-wrapper-3 {
+    border: none;
+    background-color: #181818;
+    color: #fff;
+    font-family: "Lato";
+    font-style: normal;
+  }
+  
+  .navbar .text-wrapper-4 {
+    background-color: #181818;
+    color: #fff;
+    font-family: "EB Garamond-Regular", Helvetica;
+  } */
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #181818;
+    height: 79px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      padding: 10px;
+      height: auto;
+    }
+  
+    .text-wrapper,
+    .div,
+    .text-wrapper-2,
+    .text-wrapper-3 {
+      font-size: 2vw; /* Responsive font size based on viewport width */
+      flex-grow: 1;
+      text-align: center;
+      border: none;
+      background-color: #181818;
+      color: #fff;
+      font-family: "Lato";
+      font-style: normal;
+      margin-bottom: 10px; /* Add some spacing between items */
+    }
+  
+    .text-wrapper-4 {
+      font-size: 3vw; /* Responsive font size based on viewport width */
+      background-color: #181818;
+      color: #fff;
+      font-family: "EB Garamond-Regular", Helvetica;
+    }
+  }
