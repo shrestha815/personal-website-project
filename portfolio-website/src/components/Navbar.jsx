@@ -2,23 +2,39 @@ import React, { useEffect} from "react";
 import { Link, useLocation} from "react-router-dom";
 import AppBar from '@mui/material/AppBar';
 import Button from '@mui/material/Button';
-import './NavStyle.css';
+//import './NavStyle.css';
+import { createTheme } from '@mui/material/styles';
+import { Tab, Tabs, Toolbar, Typography } from "@mui/material";
+import { ThemeProvider } from "@emotion/react";
+
+//Change Lato to EB Garmond 
+const theme = createTheme({
+    typography: {
+      fontFamily: [
+        'EB Garamond',
+        'sans-serif',
+      ],
+    },
+  });
 
 const Navbar=() => {
     return (
-        <div className="flex  flex-col">
-            <nav>
-                <ul> 
-                    <div className="navbar">
-                        <Button className="text-wrapper"><a href="/">Home</a></Button>
-                        <Button className="div">Contact</Button>
-                        <Button className="text-wrapper-2">About</Button>
-                        <Button className="text-wrapper-3">Portfolio</Button>
-                        <span className="text-wrapper-4">Safal Shrestha</span>
-                    </div>
-                </ul>
-            </nav>
-        </div>
+       <React.Fragment>
+            <AppBar sx={{background: '#181818'}}>
+                <Toolbar style={{justifyContent: 'center'}}>
+                    <ThemeProvider theme={createTheme}>
+                        <Typography>
+                            Safal Shrestha
+                            <Tabs variant="standard" textColor='#FFFFFF' style={{textAlign:'left'}}>
+                                <Tab label="Home">
+
+                                </Tab>
+                            </Tabs>
+                        </Typography>
+                    </ThemeProvider>
+                </Toolbar>
+            </AppBar>
+       </React.Fragment>
     );
 };
 
