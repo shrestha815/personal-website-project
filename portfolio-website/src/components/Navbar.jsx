@@ -8,7 +8,7 @@ const Navbar=() => {
     return (
         <div className="flex  flex-col">
             <nav>
-                <ul>
+                <ul> 
                     <div className="navbar">
                         <Button className="text-wrapper"><a href="/">Home</a></Button>
                         <Button className="div">Contact</Button>
