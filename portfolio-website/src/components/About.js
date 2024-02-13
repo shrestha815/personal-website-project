@@ -1,8 +1,8 @@
 import React from "react";
-const Home =() => {
+const About =() => {
 
     return <div>Yay routing is working</div>;
 
 };
 
-export default Home;
+export default About;
