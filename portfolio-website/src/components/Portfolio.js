@@ -1,8 +1,9 @@
 import React from "react";
-const Portfolio =() => {
-
-    return <div>Yay routing is working</div>;
-
+import Navbar from "./navbar.js";
+function Portfolio(){
+    return(
+        <><Navbar /></>
+    );
 };
 
 export default Portfolio;

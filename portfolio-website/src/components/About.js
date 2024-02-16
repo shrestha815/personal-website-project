@@ -1,8 +1,9 @@
 import React from "react";
-const About =() => {
+import Navbar from "./navbar.js";
 
-    return <div>Yay routing is working</div>;
-
-};
-
+function About() {
+    return(
+        <><Navbar /></>
+    );
+}
 export default About;

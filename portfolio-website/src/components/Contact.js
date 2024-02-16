@@ -1,8 +1,22 @@
 import React from "react";
-const Contact =() => {
+import Navbar from "./navbar.js";
+import { Box, Container, Typography } from "@mui/material";
 
-    return console.log("loaded Contact");
-
-};
+function Contact() {
+    return(
+        <><><Navbar /></>
+        <Container maxWidth ="md">
+            <Box sx={{display: 'flex', justifyContent: 'center', alignItems:'center', 
+             bgcolor: '#cfe8fc',height: '100vh'}}>
+                <Typography 
+                variant="h5">
+                    Something to look at
+                </Typography>
+            </Box>
+        </Container>
+        </>
+    
+    );
+}
 
 export default Contact;

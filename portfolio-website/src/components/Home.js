@@ -1,8 +1,10 @@
 import React from "react";
-const Home =() => {
+import Navbar from "./navbar.js";
 
-    return console.log("Loaded hOME");
-
-};
+function Home(){
+    return(
+        <><Navbar /></>
+    );
+}
 
 export default Home;
