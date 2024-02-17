@@ -10,6 +10,7 @@ function App(){
   return(
     <React.Fragment>
       <Routes>
+        <Route index element={<Home/>}/>
         <Route path="/Home" element={<Home/>} />
         <Route path="Portfolio" element={<Portfolio/>} />
         <Route path="About" element={<About/>} />

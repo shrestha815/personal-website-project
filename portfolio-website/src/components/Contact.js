@@ -5,7 +5,7 @@ import { Box, Container, Typography } from "@mui/material";
 function Contact() {
     return(
         <><><Navbar /></>
-        <Container maxWidth ="md">
+        <Container maxWidth ="lg">
             <Box sx={{display: 'flex', justifyContent: 'center', alignItems:'center', 
              bgcolor: '#cfe8fc',height: '100vh'}}>
                 <Typography 
