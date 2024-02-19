@@ -7,7 +7,7 @@ function Contact() {
         <><><Navbar /></>
         <Container maxWidth ="lg">
             <Box sx={{display: 'flex', justifyContent: 'center', alignItems:'center', 
-             bgcolor: '#cfe8fc',height: '100vh'}}>
+             bgcolor: '#cfe8fc',width: '100vw', height: '100vh'}}>
                 <Typography 
                 variant="h5">
                     Something to look at
