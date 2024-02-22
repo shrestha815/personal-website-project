@@ -1,6 +1,15 @@
-import React from "react";
+import * as React from "react";
 import Navbar from "./navbar.js";
 import { Box, Container, Typography } from "@mui/material";
+import ImagePlacer from "./ImagePlacer.js";
+
+const itemData = [
+    {
+        img: 'https://images.unsplash.com/photo-1549388604-817d15aa0110',
+        title: 'Bed'
+    }
+];
+
 
 function Home(){
     return(
@@ -12,6 +21,7 @@ function Home(){
                 <Typography variant="body2">
                     Selected Works
                 </Typography>
+                <ImagePlacer itemData></ImagePlacer>
             </Box>
         </Container>
         
