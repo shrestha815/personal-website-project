@@ -1,14 +1,7 @@
 import React from "react";
 import Navbar from "./navbar.js";
 import { Box, Container, Typography } from "@mui/material";
-import ImagePlacer from "./ImagePlacer.js";
-
-    const itemData = [
-        {
-            img:'',
-            title:'Me'
-        }
-    ];
+import example from '../assets/About.jpg';
 
 function About() {
     return(
@@ -21,7 +14,7 @@ function About() {
                 variant="h5">
                      About
                 </Typography>
-                <ImagePlacer />
+                <img src={example} alt="AboutpagePortrait" />
             </Box>
         </Container>
         </>

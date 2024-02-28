@@ -15,7 +15,7 @@ function Home(){
     return(
         <><Navbar />
         <Container disableGutters maxWidth = 'xl'>
-            <Box disableGutters sx={{display: 'flex', justifyContent: 'space-around', alignItems: 'baseline', 
+            <Box disableGutters sx={{display: 'flex', justifyContent: 'center', alignItems: 'center', 
             width: '100vw', height: '100vh'}} >
                 <Typography variant="h4">Welcome</Typography>
                 <Typography variant="body2">

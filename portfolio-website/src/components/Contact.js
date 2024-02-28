@@ -4,7 +4,8 @@ import { Box, Container, Typography } from "@mui/material";
 
 function Contact() {
     return(
-        <><><Navbar /></>
+        <>
+        <Navbar />
         <Container disableGutters maxWidth ="xl">
             <Box disableGutters sx={{display: 'flex', justifyContent: 'center', alignItems:'center', 
              bgcolor: '#cfe8fc',width: '100vw', height: '100vh'}}>
