@@ -15,13 +15,13 @@ function Home(){
     return(
         <><Navbar />
         <Container disableGutters maxWidth = 'xl'>
-            <Box disableGutters sx={{display: 'flex', justifyContent: 'center', alignItems: 'center', 
+            <Box disableGutters sx={{display: 'flex', justifyContent: 'space-around', alignItems: 'baseline', 
             width: '100vw', height: '100vh'}} >
                 <Typography variant="h4">Welcome</Typography>
                 <Typography variant="body2">
                     Selected Works
                 </Typography>
-                <ImagePlacer itemData></ImagePlacer>
+                <ImagePlacer Items={itemData} />
             </Box>
         </Container>
         

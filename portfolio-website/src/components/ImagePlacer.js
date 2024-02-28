@@ -2,7 +2,7 @@ import React from "react";
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 
-function ImagePlacer(Items) {
+function ImagePlacer({Items}) {
     return(
         <ImageList sx={{width: 500, height: 450}} variant="woven" cols={3} gap={8}>
             {Items.map((item) =>(
