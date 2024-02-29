@@ -3,6 +3,7 @@ import Navbar from "./navbar.js";
 import { Box, Container, Typography } from "@mui/material";
 import ImagePlacer from "./ImagePlacer.js";
 
+// import images in here 
 const itemData = [
     {
         img: 'https://images.unsplash.com/photo-1549388604-817d15aa0110',
@@ -14,6 +15,7 @@ const itemData = [
 function Home(){
     return(
         <><Navbar />
+        {/* margins to be added and image placer needs fixing */}
         <Container disableGutters maxWidth = 'xl'>
             <Box disableGutters sx={{display: 'flex', justifyContent: 'center', alignItems: 'center', 
             width: '100vw', height: '100vh'}} >

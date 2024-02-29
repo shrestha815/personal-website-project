@@ -1,0 +1,6 @@
+@media (max-width: 768px) {
+    /* Styles for mobile screens */
+    img {
+      max-width: 100%; /* Ensure the image doesn't overflow the container */
+    }
+  }
