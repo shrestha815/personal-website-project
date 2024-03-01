@@ -20,7 +20,7 @@ const itemData = [
     },
     {
         img: image2,
-        title: 'Mai'
+        title: 'Aastha'
     },
     {
         img: image3,
@@ -28,31 +28,31 @@ const itemData = [
     },
     {
         img: image4,
-        title: 'Mai'
+        title: 'Aryan'
     },
     {
         img: image5,
-        title: 'Mai'
+        title: 'Aki'
     },
     {
         img: image6,
-        title: 'Mai'
+        title: 'Aki'
     },
     {
         img: image7,
-        title: 'Mai'
+        title: 'Zoe'
     },
     {
         img: image8,
-        title: 'Mai'
+        title: 'Simran'
     },
     {
         img: image9,
-        title: 'Mai'
+        title: 'Nachi'
     },
     {
         img: image10,
-        title: 'Mai'
+        title: 'Manika'
     },
    
 ];

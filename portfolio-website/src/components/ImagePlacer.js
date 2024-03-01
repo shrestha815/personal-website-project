@@ -5,7 +5,7 @@ import { Box } from "@mui/material";
 
 function ImagePlacer({Items}) {
     return(
-        <Box sx={{ width: "100vw", height: "100vh", overflowY: 'scroll', pt:10}}>
+        <Box sx={{ width: "100vw", height: "100vh", overflowY: 'scroll', pt:6}}>
         <ImageList sx={{width: "100%"}} variant="masonry" cols={3} gap={8}>
             {Items.map((item) =>(
                 <ImageListItem key={item.img}>
