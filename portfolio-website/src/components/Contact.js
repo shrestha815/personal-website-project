@@ -3,8 +3,6 @@ import Navbar from "./navbar.js";
 import { Box,Grid, Container, Paper,Typography } from "@mui/material";
 import ContactImg from "../assets/Contact.jpg"
 import { createTheme, responsiveFontSizes, ThemeProvider } from '@mui/material/styles';
-
-
   
 function Contact() {
     return(

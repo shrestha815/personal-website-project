@@ -7,19 +7,6 @@ function About() {
     return(
         <>
         <Navbar />
-        {/* keep everything in a grid */}
-        {/* <Container disableGutters maxWidth = "xl" sx={{m:1,pt:8}}>
-            <Box disableGutters sx={{mt: 8,ml:10,display: 'flex',flexGrow: 1, justifyContent: 'flex-start', alignItems:'normal',
-             bgcolor: '#FFFFFF', height: '100vh', width: '100vw'}}>
-                <Typography
-                variant="h3">
-                     About
-                </Typography>
-                <Box disableGutters sx={{mt:16, display:'flex', flexGrow: 1, justifyContent: 'flex-start', alignItems:'inherit'}}>
-                    <img src={example} alt="AboutpagePortrait" className={styles.image} />
-                </Box>
-            </Box>
-        </Container> */}
         <Grid sx={{flexGrow:1, pt:5, height:'100vh',width:'100vw'}} container spacing={2}>
             <Grid item xs={12}>
                 <Grid container justifyContent="center" spacing={0.5} columns={16}>

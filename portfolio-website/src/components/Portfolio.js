@@ -59,15 +59,10 @@ const itemData = [
 
 function Portfolio(){
     return(
-        // yet to add another image list here 
         <><Navbar />
          <Container sx={{flexGrow:1, m:1}}disableGutters maxWidth = 'xl'>
             <ImagePlacer Items={itemData} />
         </Container>
-        
-        {/* <Container disableGutters maxWidth ='xl' sx={{display:'flex',flexGrow:1, justifyContent:"center"}}>
-            <ImagePlacer Items={itemData} />
-        </Container> */}
         </>
     );
 };
